@@ -1,0 +1,124 @@
+header{
+    height: 70px;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+#more{
+    position: absolute;
+    height: 28px;
+    left: 0px;
+    margin: 1.25em;
+}
+
+#logoIMG {
+    position: absolute;
+    height: 48px;
+    left: 70px;
+    top: 10px;
+    margin-right: 50em;
+    margin-left: 0.5em;
+}
+
+#logo{
+    position: absolute;
+    left: 120px;
+    top: 18px;
+    height: 100px;
+    margin-right: 50em;
+    margin-left: 0.5em;
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#search{
+    position: relative;
+    width: 40vw;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#lupa{
+    position: relative;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#notifications{
+    position: absolute;
+    height: 35px;
+    right: 80px;
+    top: 12px;
+}
+
+#profile{
+    position: absolute;
+    height: 35px;
+    right: 25px;
+    top: 12px;
+}
+
+#more, #logoIMG, #logo, #lupa, #notifications, #profile, .thumb, .title, .channel{
+    cursor: pointer;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+
+.box {
+    height: 290px;
+    width: 370px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    line-height: 4px;
+}
+
+.thumb{
+    margin: auto;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.title{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px
+}
+
+.channel{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.views{
+    margin-top: 10px;
+}
+
+footer{
+    bottom: 0px;
+    height: 30px;
+    width: 100vw;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+}
